@@ -219,6 +219,11 @@ Commit: tree
 -----
 
 # Concepts
+## Basics
+Git lets you modify local copies of file [histories](#history) (including directories and contents). The only interaction with the remote/upstream (often `origin`), shared versions is through [git fetch](#git-fetch) and [git push](#git-push). 
+
+Git is all about, how and in which order to record changes in history (= [commits](#commit))
+
 ## Branch
 Separate [history](#history) from a certain [commit](#commit) on; is a named pointer to its [tip](#tip)
 
@@ -243,6 +248,8 @@ Snapshot of all commits up to given time
 ## Repository
 Directory contaning files to be synced on demand. Basically equivalent to `.git/`
 
+## Tag
+A tag is an _immutable_ pointer to a [commit](#commit), opposite to a [branch](#branch) which is mutable
 ## Tip
 Last [commit](#commit) of a [branch](#branch)
 
@@ -273,4 +280,6 @@ Saved in [history](#history)
 
 [Beginners guide to proper git workflow](https://medium.com/@anjulapaulus_84798/beginners-guide-to-proper-git-workflow-35a2d967734e)
 
-[search YT: DGR Uploads - Episode 32]
+[datacamp - merge vs rebase](https://www.datacamp.com/blog/git-merge-vs-git-rebase)
+
+[conventional commits](https://conventionalcommits.org/en/v1.0.0/)
